@@ -465,16 +465,21 @@
             placeholder="Text input">
           </textarea>
           </label>
-          <input 
+          
+          <input class="input-checkbox"
           type="checkbox" 
           id="user-policy" />
-          <label 
-          for="user-policy" 
-          class="modal-form-check-desc">
-            I accept the terms and conditions of the
-            <a href="">Privacy Policy</a>
+          <label class="custom-checkbox"
+          for="user-policy">
+          <span class="checkbox-wrapper">
+            <svg class="form-checkbox" width="10" height="8">
+              <use href="./images/icon.svg#vector"></use>
+            </svg>
+          </span>
+           I accept the terms and conditions of the &nbsp; 
+            <a  class="privacy-policy" href="">Privacy Policy</a>
           </label>
-          <button class="modal-form-submit" type="submit">Send</button>
+          <button class="modal-form-submit button" type="submit">Send</button>
         </form>
       </div>
     </div>
