@@ -467,7 +467,14 @@ justify-content: center;
 
 /* ----------------------------footer-form---------------- */
 
+
+.footer-form{
+  display: flex;
+}
+
+
 .fotter-form-btn{
+position: relative;
   padding:8px 64px 8px 24px;
 
 border: none;
@@ -476,7 +483,7 @@ border-radius: 4px;
 }
 
 .footer-input{
-max-width: 264px;
+width: 264px;
 height: 40px;
 
 padding-top: 8px;
@@ -502,9 +509,9 @@ letter-spacing: 0.04em;
   margin-right: 24px;
 }
 
-.footer-btn-wrapper{
+/* .footer-btn-wrapper{
 position: relative;
-}
+} */
 .footer-form-btn-icon{
   position: absolute;
   top: 50%;
